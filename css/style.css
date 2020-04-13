@@ -106,6 +106,46 @@ img {
   margin-bottom: 2rem;
 }
 
+/* Tabs */
+.tabs {
+  background: var(--dark-color);
+  border-bottom: 3px solid #3d3d3d;
+}
+
+.tabs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tab-item {
+  padding: 1.5rem 0;
+}
+
+.tab-item:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.tab-item p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.tab-border {
+  border-bottom: 4px solid var(--primary-color);
+}
+
+/* Container */
+.container {
+  max-width: 70%;
+  padding: 0 2rem;
+  margin: auto;
+}
+
 /* Text Styles */
 .text-xl {
   font-size: 2rem;
