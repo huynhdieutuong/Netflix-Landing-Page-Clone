@@ -139,6 +139,61 @@ img {
   border-bottom: 4px solid var(--primary-color);
 }
 
+/* Tab Content */
+.tab-content-item {
+  color: #fff;
+  padding: 3rem 0;
+}
+
+.tab-1-content-inner {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.tab-2-content-top,
+.tab-3-content-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-2-content-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.table thead th {
+  text-transform: uppercase;
+  padding: 0.8rem;
+}
+
+.table tbody td {
+  padding: 0.8rem 1.2rem;
+  color: #999;
+}
+
+.table tbody td:first-child {
+  text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #222;
+}
+
 /* Container */
 .container {
   max-width: 70%;
