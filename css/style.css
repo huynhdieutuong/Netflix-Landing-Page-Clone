@@ -143,6 +143,11 @@ img {
 .tab-content-item {
   color: #fff;
   padding: 3rem 0;
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 .tab-1-content-inner {
