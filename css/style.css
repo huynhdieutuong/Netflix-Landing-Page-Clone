@@ -194,6 +194,39 @@ img {
   background: #222;
 }
 
+/* Footer */
+.footer {
+  max-width: 60%;
+  margin: 1rem auto;
+}
+
+.footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.footer-cols li a {
+  color: #999;
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+/* Lang Select */
+.lang-select {
+  margin-top: 2rem;
+}
+
+.lang-select select {
+  color: #999;
+  background-color: #000;
+  border: 1px solid #333;
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
 /* Container */
 .container {
   max-width: 70%;
